@@ -1,0 +1,83 @@
+header{
+    width: 100%;
+    height:9.64rem;
+    background: url('../img/phone/Parental-1.png') no-repeat !important;
+    background-size: 100% 100% !important;
+} 
+.title{
+    padding: .92rem .52rem 0 .52rem;
+    line-height: .8rem;
+}
+.centent{
+    padding: 0 .48rem;
+}
+.title>h2{
+    font-size: .6rem;
+    text-align: center;
+    color: #444444;
+}
+.title>p{
+    display: block;
+    width: .92rem;
+    margin: .28rem auto;
+    margin-bottom: .5rem;
+    border-top: .08rem solid #f4abd9;
+}
+.centent>p,.list>li{
+    font-size: .48rem;
+    line-height: .72rem;
+    color: #666666;
+}
+.list>li{
+   background-color: #f7edfc;
+   padding: .52rem .32rem;
+   margin-top: .16rem;
+   /* height: 1.52rem;
+   line-height: 1.52rem !important; */
+}
+.list{
+    padding: .44rem 0;
+}
+
+.title-1>h2{
+    padding: .44rem 0;
+    font-family: PingFang-SC-Bold;
+    font-size: .52rem;
+    line-height: .64rem;
+    color: #444444;
+    display: flex;
+    align-items: center;
+}
+.title-1 span{
+    display: inline-block;
+    height: .52rem;
+    width: .08rem;
+    margin-right: .24rem;
+    background-color: #f4abd9;
+}
+.ol{
+    margin: .4rem .4rem 1.2rem .4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ol>li{
+    position: relative;
+    margin-top: .6rem;
+    padding: 2.16rem .5rem 0 .5rem;
+    width: 5.3rem;
+    height: 6.5rem ;
+    background: url("../img/phone/Parental-2.png") no-repeat;
+    background-size: 100% 100%;
+    font-size: .48rem;
+    line-height: .72rem;
+    color: #595959;
+}
+.ol h1{
+    display: block;
+    position: absolute;
+    font-size: .6rem;
+    color: #444444;
+    top: .46rem;
+    left:2.8rem;
+}

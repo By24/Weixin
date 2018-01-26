@@ -1,0 +1,152 @@
+/* 公共样式 */
+body {font: normal 100% Helvetica, Arial, sans-serif;}
+nav a{
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 24px;
+    width: 90px;
+    padding:  36px 13px;
+  font-family: 'Microsoft YaHei';
+  }
+  nav>ul>li:nth-child(1){
+    flex-grow: 1;
+  }
+  nav{
+    background-color : rgba(000, 000, 000, .2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .myClass>nav{
+    background-color : rgba(000, 000, 000, 1) !important;
+    animation:myfirst 2s;
+    -moz-animation:myfirst 2s; /* Firefox */
+    -webkit-animation:myfirst 2s; /* Safari and Chrome */
+    -o-animation:myfirst 2s; /* Opera */
+  }
+
+@keyframes myfirst
+{
+from {background:rgba(000, 000, 000, .2);}
+to {background:rgba(000, 000, 000, 1);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+  from {background:rgba(000, 000, 000, .2);}
+  to {background:rgba(000, 000, 000, 1);}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+  from {background:rgba(000, 000, 000, .2);}
+  to {background:rgba(000, 000, 000, 1);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+  from {background:rgba(000, 000, 000, .2);}
+  to {background:rgba(000, 000, 000, 1);}
+  }
+
+.myClass1>nav{
+  background-color : rgba(000, 000, 000, .2) !important;
+  animation:myfirst1 2s;
+  -moz-animation:myfirst1 2s; /* Firefox */
+  -webkit-animation:myfirst1 2s; /* Safari and Chrome */
+  -o-animation:myfirst1 2s; /* Opera */
+}
+
+@keyframes myfirst1
+{
+from {background:rgba(000, 000, 000, 1);}
+to {background:rgba(000, 000, 000, .2);}
+}
+
+@-moz-keyframes myfirst1 /* Firefox */
+{
+  from {background:rgba(000, 000, 000, 1);}
+  to {background:rgba(000, 000, 000, .2);}
+}
+
+@-webkit-keyframes myfirst1 /* Safari and Chrome */
+{
+  from {background:rgba(000, 000, 000, 1);}
+  to {background:rgba(000, 000, 000, .2);}
+}
+
+@-o-keyframes myfirst1 /* Opera */
+{
+  from {background:rgba(000, 000, 000, 1);}
+  to {background:rgba(000, 000, 000, .2);}
+  }
+  nav>ul{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .nav>a{
+    border-bottom: 5px solid rgba(000, 000, 000, .0);
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+  }
+  nav li:nth-child(1) a{
+    padding: 0;
+    width: 132px;
+    height: 56px;
+    background: url('../img/index/logo.png') no-repeat center;
+    background-size: 100% 100%;
+  }
+  nav>ul>li:nth-last-child(1) a{
+    width: 36px;;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 8px 16px 9px 17px;
+
+   }
+  .nav a:hover,nav>ul>li:nth-last-child(1) a:hover{
+    border-color: #dc3882;
+    color: #dc3882;
+  }
+  
+  .content{
+    width: 1200px;
+    margin: auto;
+  }
+  .nav>a.active{
+    border-color: #dc3882;
+    color: #dc3882;
+  }
+  
+  footer{
+    padding: 20px 0;
+    background-color: #6b1e66;
+    text-align: center;
+    font-size: 14px;
+    color: #9b4d96;
+    position: relative;
+    z-index: 10;
+  }
+  footer>p{
+    width: 1200px;
+    margin: auto;
+  }
+  .link-img img:hover{
+    border-radius: 8px;
+    animation:link-img 2s;
+    -moz-animation:link-img 2s; /* Firefox */
+    -webkit-animation:link-img 2s; /* Safari and Chrome */
+    -o-animation:link-img 2s; /* Opera */
+  }
+@keyframes link-img
+{
+  from {background:rgba(000, 000, 000, .2);}
+  to {background:rgba(000, 000, 000, .4);}
+}

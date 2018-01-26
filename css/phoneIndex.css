@@ -1,0 +1,86 @@
+
+
+
+
+.centent{
+    margin-top: -.4rem;
+    width: 100%;
+    background: url("../img/phone/index-1.png") no-repeat center;
+    background-size: 100% 100%; 
+}
+.active1{
+    background: url("../img/phone/index-3.png") no-repeat center !important; 
+    background-size: 100% 100% !important; 
+}
+.title{
+    height: 2rem;
+    text-align: center;
+    padding-top: 1.2rem;
+}
+.title span{
+    display: inline-block;
+    height: .52rem;
+    width: .08rem;
+    background-color: #f4abd9;
+    margin-right: .2rem;
+}
+.title>h3{
+    font-size: .6rem;
+    color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title>p{
+    font-size: .44rem;
+    color: #a8a8a8;
+
+}
+.centent>img{
+    display: block;
+    width: 7.88rem;
+    height: 6.24rem;
+    margin: auto;
+}
+.centent>p{
+	font-family: "PingFang-SC-Regular";
+	font-size: .48rem;
+	line-height: .72rem;
+    color: #555555;
+    padding: .4rem .76rem .96rem .76rem;
+}
+.centent-right{
+    width: 6.4rem;
+}
+.centent-right h3{
+    font-size: .84rem;
+    line-height: 1.44rem;
+    color: #fff;
+    font-style:italic
+}
+.centent-right p{
+    font-family: "MicrosoftYaHei";
+    font-size: .64rem;
+    line-height: .78rem;
+    color: #fff;
+}
+.centent-right-img{
+    width: 1.76rem !important;
+    height: 1.76rem !important;
+}
+.centent-3{
+    width: 100%;
+    background: url("../img/phone/index-2.png") no-repeat center;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1.16rem 0 .2rem 0;
+}
+.centent-right>img{
+    margin: auto;
+    margin-top: .64rem;
+}
+.centent-left>img{
+    height: 9.88rem;
+    
+}

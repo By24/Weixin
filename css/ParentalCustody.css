@@ -1,0 +1,87 @@
+header{
+    width: 100%;
+    height: 772px !important;
+    background: url('../img/background/banner.png') no-repeat center !important;
+    background-size: cover;
+}
+.title{
+	height: 65px;
+	font-family: PingFang-SC-Bold;
+    text-align: center;
+    margin-top: 64px;
+}
+
+.title>p{
+	font-family: PingFang-SC-Bold;
+	font-size: 30px !important;
+	line-height: 36px !important;
+	color: #4d4d4d;
+}
+.title>div{
+    width: 46px;
+    margin: 15px auto 27px ;
+    border-top: 3px solid #f4abd9;
+}
+.content p{
+	font-family: MicrosoftYaHei;
+	font-size: 14px;
+	line-height: 27px;
+	color: #666666;
+}
+.content-p{
+    width: 100%;
+    padding-top: 54px;
+}
+ol>li{
+    height: 40px;
+    line-height: 40px;
+	font-family: PingFang-SC-Medium;
+	font-size: 16px;
+    color: #666666;
+    background-color: #f7edfc;
+    margin: 5px 0;
+}
+ol>li:nth-child(1){
+    margin-top: 15px;
+}
+.title-2{
+    margin-top: 39px;
+}
+.title-2>h2{
+	font-family: MicrosoftYaHei-Bold;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0px;
+	color: #666666;
+}
+.prompt{
+    display: flex;
+    justify-content: space-between;
+    margin: 26px 0 77px 0;
+}
+.prompt>li{
+    width: 225px;
+    height: 340px;
+    background: url('../img/background/banner-1.png') no-repeat;
+    background-size: 100% 100%;
+    margin-top: 0px !important;
+    position: relative;
+}
+.prompt h2{
+    display: block;
+    position: absolute;
+	font-family: PingFang-SC-Medium;
+	font-size: 30px;
+	line-height: 32px;
+    color: #666666;
+    left: 96px;
+    top: 18px;
+}
+.prompt>li>p{
+ margin-top: 92px;
+ font-family: PingFang-SC-Medium;
+ font-size: 16px;
+ padding: 0 27px;
+ line-height: 32px;
+ color: #595959;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>基于amaze-ui的充值界面</title>
+    <link rel="stylesheet" type="text/css" href="css/amazeui.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <style>
+    </style>
+</head>
+
+<body>
+    <div class="pay">
+        <!--主内容开始编辑-->
+        <div class="tr_recharge">
+            <!-- <div class="tr_rechtext">
+                <p class="te_retit">
+                    <img src="img/icon/coin.png" alt="" />充值中心</p>
+                <p>1.余量呃呃呃呃呃呃呃呃呃呃呃呃呃呃</p>
+                <p>2.鱼粮比例8元=80000点鱼粮----</p>
+            </div> -->
+            <form action="" class="am-form" id="doc-vld-msg" method="get">
+                <div class="tr_rechbox">
+                    <div class="tr_rechhead">
+                        <p>充值帐号:</p>
+                        <input type="text" name="user" required>
+                    </div>
+                    <div class="tr_rechli am-form-group">
+                        <ul class="ui-choose am-form-group" id="uc_01">
+                            <li>
+                                <label class="am-radio-inline">
+                                    <input type="radio" value="" name="money" required data-validation-message="请选择一项充值额度"> 10￥
+                                </label>
+                            </li>
+                            <li>
+                                <label class="am-radio-inline">
+                                    <input type="radio" name="money" data-validation-message="请选择一项充值额度"> 20￥
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="am-radio-inline">
+                                    <input type="radio" name="money" data-validation-message="请选择一项充值额度"> 50￥
+                                </label>
+                            </li>
+                            <li>
+                                <label class="am-radio-inline">
+                                    <input type="radio" name="money" data-validation-message="请选择一项充值额度"> 其他金额
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tr_rechoth am-form-group">
+                        <span>其他金额：</span>
+                        <input type="number" min="10" max="10000" value="10"  class="othbox" data-validation-message="充值金额范围：10-10000元" />
+                    </div>
+                    <div class="tr_rechcho am-form-group">
+                        <span>充值方式：</span>
+                        <label class="am-radio" style="cursor:pointer">
+                            <input type="radio" name="type" value="WeChat" data-am-ucheck required data-validation-message="请选择一种充值方式">
+                            <img src="img/icon/wechatpay.png" />
+                        </label>
+                        <label class="am-radio" style="margin-right:30px;cursor:pointer">
+                            <input type="radio" name="type" value="Alipay" data-am-ucheck data-validation-message="请选择一种充值方式">
+                            <img src="img/icon/zfbpay.png" />
+                        </label>
+                    </div>
+                    <div class="tr_rechnum">
+                        <span>应付金额：</span>
+                        <p class="rechnum">0.00元</p>
+                    </div>
+                    <div class="checkbox-group active1">
+                        <input type="checkbox" id="one" name="dan" />
+                        <label for="one" class="agree"></label>
+                        <span class="checkbox-group">我同意
+                            <a href="javascript:;" style="color:#27b0d6">《关于。。。。。的约定》</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="tr_paybox">
+                    <input type="button" value="确认支付" class="tr_pay am-btn" disabled/>
+                    <span>温馨提示:00000000</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/amazeui.min.js"></script>
+    <script type="text/javascript" src="js/ui-choose.js"></script>
+    <script src="js/PublicStyle.js"></script>
+    <script src="layer/layer.js"></script>
+</html>
