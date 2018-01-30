@@ -1,0 +1,42 @@
+<import src="../../Component/Component/Component.wxml"/>
+<template is="footer" data="{{ footer }}"></template>
+<view bindtap='bodyNone'>
+  <view class='logName'>
+  <image src='../../images/background/banner.png'></image>
+    <view class='nameComponent'>
+      <image src='../../images/icon/A.png'></image>
+      <view class='name_name'>
+        <view style='color:#fff'>关于我们</view>
+        <text style='color:#fff'>bout us</text>
+      </view>
+    </view>
+  </view> 
+ 
+
+<view class='boutUs_text'>
+  <text>　　成都忆享（Esharex）科技有限公司（以下简称“忆享”） ,成立于2015年,忆享科技是以互联网+、大数据、IT应用开发维护等技术为核心的智能信息化解决方案提供商 。业务范围涵盖互联网+、平台设计与构建、IT应用开发维护、IT系统建设规划与咨询、软件服务外包（ITO） 、APP开发、微信相关研发、大型数据中心运维管理、智慧城市及产品增值服务等，客户遍布政府、运营商、金融、教育、电子医疗、工程等多个领域。</text>
+  <text>　　公司实行成都&上海双总部运行，现有员工300余名，研发人员占比70%，并拥有一支国家院士领头的专家队伍以创新引领市场，目前已与腾讯、 百度、陌陌等一大批知名企业结成了合作伙伴。</text>
+</view>
+
+  <view class='logName' style='margin-left:-26rpx'>
+    <view class='nameComponent'>
+      <image src='../../images/icon/C.png'></image>
+      <view class='name_name'>
+        <view>联系我们</view>
+        <text>ontact us</text>
+      </view>
+    </view>
+  </view> 
+
+<view class='My_address'>
+  <view>联系电话：</view>
+  <view>400-000-8821</view>
+  <view>公司地址：</view>
+  <view>成都市高新区天晖中街56号曙光国际2126号</view>
+  <image src='{{img[0]}}' data-src="{{img[0]}}" bindtap='previewImage'></image>
+  <view>成都忆享科技有限公司</view>
+</view>
+
+<!-- <map id="map" longitude="104.0656523721" latitude="30.5939076990" scale="14" controls="{{controls}}"  markers="{{markers}}" style="width: 100%; height: 300px;" bindtap='openMap'></map> -->
+<image src='../../images/homepage/map.jpg' style='height: 520rpx;width: 100%;' bindtap='openMap'></image>
+</view>

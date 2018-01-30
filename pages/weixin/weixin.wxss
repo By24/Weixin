@@ -1,0 +1,135 @@
+.backBround>image{
+  height: 300rpx;
+  width: 100%;
+}
+
+.log>image{
+  width: 252rpx;
+  height: 300rpx;
+  /* opacity: 0.4; */
+}
+.log{
+ display: flex;
+ align-items: center;
+ margin-top: -300rpx;
+}
+.nav_text{
+  width: 392rpx; 
+  margin-left: 60rpx;
+  font-size: 24rpx;
+  color: #fff;
+  margin-top: -20rpx;
+}
+.nav_text>text{
+font-weight: 500;
+ display: block;
+ font-size: 30rpx;
+ color: #fff;
+}
+.nav_text_2{
+  padding-top: 20rpx;
+}
+
+.cent_w{
+  display: flex;
+  justify-content: center;
+  padding-top: 45rpx;
+  padding-bottom: 32rpx;
+}
+.title{
+  font-size: 32rpx;
+  color: #666;
+  font-weight: 500;
+}
+.font_w{
+  width: 60rpx;
+  height: 48rpx;
+  padding-right: 10rpx; 
+  padding-top: 8rpx;
+}
+.font_E{
+  width: 248rpx;
+  height: 28rpx;
+}
+
+.textCentent{
+  font-size: 26rpx;
+  color: #666;
+  margin: 0 30rpx;
+  border-bottom: 1px solid  #eee
+}
+.textCentent>image{
+  display: block;
+  margin: auto;
+  padding: 28rpx 0;
+  width: 300rpx;
+  height: 344rpx;
+}
+.centnet{
+  border-bottom: 1rpx solid #e5e5e5;
+  margin: 0 30rpx;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 128rpx;
+  padding: 28rpx;
+  background-color: #eee;
+  font-size: 22rpx;
+  color: #aaa;
+  line-height: 44rpx;
+}
+.list2{
+  background-color: #fff;
+}
+.list_title{
+  font-size: 26rpx;
+  color: #7c7c7c;
+}
+.titleAdv{
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 32rpx;
+  color: #666;
+}
+.advantage{
+ width: 660rpx;
+ margin: auto;
+ text-align: center;
+ border-bottom: 1px solid #eee;
+}
+.advantage>image{
+ width: 100%;
+ padding: 78rpx  0;
+}
+.caseShow{
+  padding: 0 28rpx;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.caseShow>image{
+  padding: 10rpx 0;
+  width: 330rpx;
+  height: 224rpx;
+  border-radius: 3rpx;
+}
+.button1{
+  padding: 44rpx 0;
+}
+.button2{
+  position: relative;
+  margin: 44rpx 0;
+}
+.button2,.button2>image{
+  width: 198rpx;
+  height: 62rpx;
+  margin: auto;
+}
+.button2>view{
+  position: absolute;
+  left: 64rpx;
+  color: #fff;
+  font-size: 24rpx;
+}

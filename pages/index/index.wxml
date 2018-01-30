@@ -1,0 +1,122 @@
+ 
+
+<import src="../../Component/Component/Component.wxml"/>
+<!-- 头部模板 -->
+<template is="homeHead"></template>
+<!-- footer -->
+<template is="footer" data="{{ footer }}"></template>
+ <view bindtap='bodyNone'>
+  <view class='homeT'><label style='color:rgb(30,141,216)'>专业</label><label>的游戏开发商</label></view>
+  <view class='bor'></view> 
+  <view class='homeTComtent'>致力于网络电玩游戏技术研发及生产、提供专业定制的游戏，是国内领先的网络游戏技术服务商。</view>
+  <view class='homeTComtent'>公司拥有一批在、互联网、软件行业具有丰富经验的管理人员,并拥有一支专注于业务、精通互联网和计算机软件的技术团队，为客户提供专业优质高效的网络游戏、定制开发服务。</view>
+
+    <view class='Alist'>
+        <image src='../../images/homepage/banner1.png'></image>
+        <image src='../../images/homepage/banner2.png'></image>
+        <image src='../../images/homepage/banner3.png'></image>
+        <image src='../../images/homepage/banner4.png'></image>
+    </view>
+
+  <navigator class='buttom' url="../game/game" hover-class="none">
+      <image src='../../images/icon/morea.png'></image>
+      <text>MORE</text>
+  </navigator> 
+
+  <view class='phone'>
+    <image src='../../images/homepage/phone.png'></image>
+    <view class='phoneCom'>
+      <view class='phoneTitle'>专业的APP移动端应用程序开发团队</view>
+      <view class='bor phoneBor'></view>
+      <view class='phoneComtent'>专业定制开发各种应用软件系统，掌握各种手机开发平台及现在流行的手机开发结构,能有效满足手 机软件系统的开发需求,提供完善的移动端服务及解决方案。</view>
+      <navigator class='buttom phoneButtom' url="../dev/dev" hover-class="none">
+          <text>MORE</text>
+      </navigator>
+    </view>
+  </view> 
+
+  <view class='software'>
+    <image src='../../images/homepage/computer.png'></image>
+      <view class='softwareCom'>
+          <view class='softwareTitle'>软件开发</view>
+          <view class='bor softwareBor'></view>
+          <view class='softwareComtent'>帮助企业进行产品研发前的需求整理﹑原型设计﹑产品研发规划﹑研发中的框架设计﹑程序编码﹑技术实现等。</view>
+          <navigator class='buttom softwareButtom'  url="../ruanjian/ruanjian" hover-class="none">
+              <image src='../../images/icon/morea.png'></image>
+              <text>MORE</text>
+          </navigator>
+        </view>
+  </view> 
+
+  <view class='website'>
+    <image src='../../images/homepage/webdev.png'></image>
+    <view class='websiteCom'>
+      <view class='websiteTitle'>网站开发</view>
+      <view class='bor websiteBor'></view>
+      <view class='websiteComtent'>专业的网站设计及开发服务，包括企业网站、互联产品网站、电商网站、社交及应用类网站等。</view>
+      <navigator class='buttom websiteButtom'  url="../website/website" hover-class="none">
+          <image src='../../images/icon/morea.png'></image>
+          <text>MORE</text>
+      </navigator>
+    </view>
+  </view> 
+
+
+  <view class='weixin'>
+    <image src='../../images/homepage/handle.png'></image>
+    <view class='weixinCom'>
+      <view class='weixinTitle'>微信小程序<view>开发一站式服务</view> </view>
+      <view class='bor weixinBor'></view>
+      <view class='weixinComtent'>专业的网站设计及开发服务，包括企业网站、互联产品网站、电商网站、社交及应用类网站等。</view>
+      <navigator class='buttom weixinButtom' url="../weixin/weixin" hover-class="none">
+          <image src='../../images/icon/morea.png'></image>
+          <text>MORE</text>
+      </navigator>
+    </view>
+  </view> 
+
+
+  <view class='Operate'>
+    <image src='../../images/homepage/blueground.png'></image>
+    <view class='Operate12'>
+        <view class='homeT' style='color:#fff'>运营维护</view>
+        <view class='bor' style='border-color: #fff;'></view> 
+        <view class='OperateCom'>
+          <view>
+            <image src='../../images/homepage/group-1.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+          <view>
+            <image src='../../images/homepage/group-2.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+          <view>
+            <image src='../../images/homepage/group-3.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+        </view>
+        <view class='OperateCom'>
+          <view>
+            <image src='../../images/homepage/group-4.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+          <view>
+            <image src='../../images/homepage/group-5.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+          <view>
+            <image src='../../images/homepage/group-6.png'></image>
+            <text>1确认维护意向</text>
+          </view>
+        </view>
+      <navigator class='buttom OperateButtom' url="../operate/operate" hover-class="none">
+          <text>MORE</text>
+      </navigator>
+    </view>
+  </view>
+
+<template is="Alist"  data="{{ imgList }}"></template>
+
+</view>
+
+

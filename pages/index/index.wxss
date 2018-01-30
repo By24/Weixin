@@ -1,0 +1,305 @@
+@import "../../Component/Component/Component.wxss";
+
+.homeT {
+  font-size: 36rpx;
+  text-align: center;
+  font-family: 600;
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+  padding-top: 54rpx;
+}
+
+.bor {
+  border: 1px solid rgb(102, 102, 102);
+  width: 30rpx;
+  margin: 18rpx auto;
+}
+
+.homeTComtent {
+  color: #808080;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  padding: 0 30rpx;
+  margin: 26rpx 0;
+}
+
+.gameImg {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  flex-wrap: wrap;
+}
+
+.gameImg image {
+  display: block;
+  width: 335rpx;
+  height: 224rpx;
+  padding: 10rpx 0;
+}
+
+.phone image {
+  width: 100%;
+  height: 100%;
+}
+
+.phone {
+  position: relative;
+  height: 588rpx;
+}
+
+.phoneCom {
+  position: absolute;
+  width: 395rpx;
+  padding: 104rpx 0 0 30rpx;
+  top: 0;
+}
+
+.phoneTitle {
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+  color: #fff;
+}
+
+.phoneComtent {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #fff;
+}
+
+.phoneButtom {
+  border: 1px solid #fff;
+  border-radius: 50rpx;
+  margin: 28rpx 0;
+  width: 199rpx;
+  height: 59rpx;
+}
+
+.phoneBor {
+  margin: 17rpx 0 26rpx 0;
+  border-color: #fff;
+}
+
+/* 软件开发 */
+
+.software {
+  height: 556rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -80rpx 0 -40rpx 0;
+}
+
+.software>image {
+  display: block;
+  width: 360rpx;
+  height: 367rpx;
+}
+
+.softwareCom {
+  width: 329rpx;
+  padding-right: 30rpx;
+}
+
+.softwareTitle {
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.softwareComtent {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #666;
+}
+
+.softwareButtom {
+  border-radius: 50rpx;
+  margin: 28rpx 0;
+}
+
+.softwareBor {
+  margin: 17rpx 0 26rpx 0;
+}
+
+/* 网站开发 */
+
+.website image {
+  width: 100%;
+  height: 100%;
+}
+
+.website {
+  position: relative;
+  height: 588rpx;
+  z-index: 3;
+}
+
+.websiteCom {
+  position: absolute;
+  width: 334rpx;
+  padding: 148rpx 0 0 30rpx;
+  top: 0;
+}
+
+.websiteTitle {
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.websiteComtent {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #666;
+}
+
+.websiteButtom {
+  border-radius: 50rpx;
+  margin: 28rpx 0;
+}
+
+.websiteBor {
+  margin: 17rpx 0 26rpx 0;
+}
+
+/* 微信 */
+
+.software {
+  height: 556rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -80rpx 0 -40rpx 0;
+}
+
+.software>image {
+  display: block;
+  width: 360rpx;
+  height: 367rpx;
+}
+
+.softwareCom {
+  width: 329rpx;
+  padding-right: 30rpx;
+}
+
+.softwareTitle {
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.softwareComtent {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #666;
+}
+
+.softwareButtom {
+  border-radius: 50rpx;
+  margin: 28rpx 0;
+}
+
+.softwareBor {
+  margin: 17rpx 0 26rpx 0;
+}
+
+/* 网站开发 */
+
+.weixin image {
+  width: 100%;
+  height: 100%;
+}
+
+.weixin {
+  position: relative;
+  height: 588rpx;
+  margin-top: -80rpx;
+  z-index: 1;
+}
+
+.weixinCom {
+  position: absolute;
+  width: 334rpx;
+  padding: 148rpx 30rpx 0 0;
+  right: 0;
+  top: 0;
+}
+
+.weixinTitle {
+  font-size: 32rpx;
+  line-height: 40rpx;
+  font-weight: 600;
+  color: #4d4d4d;
+}
+
+.weixinComtent {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #666;
+}
+
+.weixinButtom {
+  border-radius: 50rpx;
+  margin: 28rpx 0;
+}
+
+.weixinBor {
+  margin: 17rpx 0 26rpx 0;
+}
+
+/* 运营 */
+
+.Operate>image {
+  width: 100%;
+  height: 100%;
+}
+
+.Operate {
+  height: 625rpx;
+  position: relative;
+  margin-top: -50rpx;
+  z-index: 3;
+}
+
+.Operate12 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.OperateCom>view {
+  width: 163rpx;
+  height: 140rpx;
+  font-size: 24rpx;
+  line-height: 28rpx;
+  color: #fff;
+}
+
+.OperateCom text {
+  display: block;
+}
+
+.OperateCom image {
+  display: block;
+  padding-bottom: 24rpx;
+  margin: auto;
+  width: 74%;
+  height: 60%;
+}
+
+.OperateCom {
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.OperateButtom {
+  margin: 0 auto;
+  border: 1px solid #fff;
+  border-radius: 50rpx;
+}

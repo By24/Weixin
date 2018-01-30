@@ -1,0 +1,44 @@
+<import src="../../Component/Component/Component.wxml" />
+<import src="../../wxParse/wxParse.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+
+<view bindtap='bodyNone'>
+  <view class='logName'>
+    <image src='../../images/background/banner.png'></image>
+    <view class='nameComponent'>
+      <image src='../../images/icon/N.png'></image>
+      <view class='name_name'>
+        <view style='color:#fff'>新闻动态</view>
+        <text style='color:#fff'>ews dynamics</text>
+      </view>
+    </view>
+  </view>
+
+  <view class='nav'>
+    <view bindtap='product' class="{{ select ? 'statementB':'statementA' }}">产品新闻</view>
+    <view bindtap='theCompany' class="{{ select ? 'statementA':'statementB' }}">公司新闻 </view>
+  </view>
+
+  <!-- 公司新闻 -->
+  <view class='centent' wx:if="{{ select === true }}">
+    <navigator class='centent_list' hover-class='none' wx:for="{{ company }}" wx:key="{{ item }}" url='../newsDetails/newsDetails?title={{item.newsTitle}}&id={{item.id}}'>
+
+      <image src='{{ http + item.nd_img }}'></image>
+      <view>
+        <view class='name'>{{ item.newsTitle }}</view>
+        <text class='text'>{{ item.nd_webpageDesc }}</text>
+      </view>
+    </navigator>
+
+  </view>
+  <!-- 产品新闻-->
+  <view class='centent' wx:else>
+    <navigator hover-class='none' class='centent_list' wx:for="{{ company }}" wx:key="{{ item }}" url='../newsDetails/newsDetails?title={{item.title}}&id={{item.id}}'>
+      <image src='{{ http + item.nd_img }}'></image>
+      <view>
+        <view class='name'>{{ item.newsTitle }}</view>
+        <text class='text'>{{ item.nd_webpageDesc }}</text>
+      </view>
+    </navigator>
+  </view>
+</view>

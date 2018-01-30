@@ -1,0 +1,108 @@
+.header_img{
+  width: 100%;
+  height: 300rpx;
+}
+.name_name>image{
+  width: 114%;
+}
+/* logName样式定义在全局app里 */
+
+.whyDoApp{
+  padding: 0 30rpx;
+}
+.whyDoApp>text{
+  display: block;
+  font-size: 24rpx;
+	line-height: 32rpx;
+	color: #666666
+}
+.orkProcess text{
+  display: block;
+  line-height: 30rpx;
+  text-align: center;
+}
+.workProcess_title{
+	font-size: 32rpx;
+	color: #555555;
+  padding-top: 114rpx;
+  font-family: "PingFang SC Medium",
+}
+.workProcess_small{
+  padding: 30rpx 0;
+  font-size: 24rpx;
+	color: #555555;
+  font-family: 'PingFang SC Regular';
+}
+.orkProcess_list{
+  display: flex;
+  padding: 32rpx;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.orkProcess_list image{
+    width: 50%;
+    height: 50%;
+}
+.orkProcess_list>view{
+  width: 200rpx;
+  height: 150rpx;
+  text-align: center;
+}
+.orkProcess_list text{
+  margin-top: 20rpx;
+  display: block;
+  color: #333333;
+  line-height: 32rpx;
+  font-size: 24rpx;
+}
+
+.app_cent{
+  text-align: center;
+  padding: 91rpx 0 52rpx 0;
+  font-weight: 700rpx;
+}
+.app_cent_list{
+  padding: 0 30rpx;
+ 	font-size: 24rpx;
+	line-height: 30rpx;
+  color: #444444;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.app_cent_list label{
+  padding: 0 20rpx;
+}
+.app_cent_list>view{
+  margin: 16rpx 0;
+  display: flex;
+  align-items: center;
+  width: 330rpx;
+  height: 180rpx;
+}
+.app_cent_list_right{
+   border-right:  1rpx solid #f1f1f1;
+}
+.app_cent_list_left{
+  border-left:  1rpx solid #f1f1f1;
+}
+.app_cent_list_top{
+  border-top:  1rpx solid #f1f1f1;
+}
+.app_cent_list_button{
+  border-button:  1rpx solid #f1f1f1;
+}
+.app_cent_list_back{
+  background-color: #f1f1f1;
+  border: 1rpx solid #f1f1f1;
+}
+.partner{
+  padding: 0 30rpx 40rpx 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.partner>navigator,.partner image{
+    width: 160rpx;
+    height: 70rpx;
+}

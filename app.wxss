@@ -1,0 +1,43 @@
+@import "Component/Component/Component.wxss";
+page{
+  padding-bottom: 85rpx;
+  /* height: 100%; */
+}
+/* .bodyNone{
+  height: 100%;
+} */
+/* 标题 */
+.logName{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  justify-content: center
+}
+.name_name>view{
+  /* font-weight: 600; */
+}
+.name_name text{
+  display: block;
+  color: #666666;
+  font-size:26rpx
+}
+.logName>image,.logName{
+  width: 100%;
+  height: 150rpx;
+}
+.nameComponent{
+  display: flex;
+  justify-content: center;
+  width: 500rpx;
+  height: 68rpx;
+  margin: auto;
+  position: absolute;
+}
+.nameComponent>image{
+  margin-right: 10rpx;
+  width: 8%;
+  height: 70%;
+}
+/* 服务流程 */
+

@@ -1,0 +1,183 @@
+<import src="../../Component/Component/Component.wxml"/>
+<template is="footer" data="{{ footer }}"></template>
+
+
+<view class='header' style='line-height: 30rpx'>
+  <image src='../../images/ruanjian.png'  style='height:300rpx;'></image>
+  <view class='header_centent'>
+    <view class='header_title' style=' text-align: center; padding: 20rpx 0;'>软件开发</view>
+    <text class='header1_text' style='font-size: 20rpx'>帮助企业进行产品研发前的需求整理﹑原型设计﹑产品研发规划﹑研发中的框架设计﹑程序编码﹑技术实现等。</text>
+  </view>
+</view> 
+
+    <view class='box1'>
+      <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/S.png'></image>
+          <view class='name_name'>
+            <view>软件开发</view>
+            <text>oftware development</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='box1-con'>
+        <view class='list1'>
+          <view class='box1-img'>
+            <image src='../../images/ruanjian1.png'></image>
+          </view>
+          <view class='box1Font'>
+            <view class='box1Font-tit'>量身定制</view>
+            <view class='box1Font-con'>根据业务流程，量身打造适合您企业的管理软件。</view>
+          </view>
+        </view>
+        <view class='list1'>
+          <view class='box1-img'>
+            <image src='../../images/ruanjian2.png'></image>
+          </view>
+          <view class='box1Font'>
+            <view class='box1Font-tit'>流程优化</view>
+            <view class='box1Font-con'>对现有工作流程梳理完善让流程标准化，提高工作效率</view>
+          </view>
+        </view>
+        <view class='list1'>
+          <view class='box1-img'>
+            <image src='../../images/ruanjian3.png'></image>
+          </view>
+          <view class='box1Font'>
+            <view class='box1Font-tit'>数据积累</view>
+            <view class='box1Font-con'>利用计算机硬件和软件技术对数据进行有效的收集、储存、处理和应用。</view>
+          </view>
+        </view>
+
+        <view class='list1'>
+          <view class='box1-img'>
+            <image src='../../images/ruanjian4.png'></image>
+          </view>
+          <view class='box1Font'>
+            <view class='box1Font-tit'>数据分析</view>
+            <view class='box1Font-con'>为制定更加精准有效的营销策略提供决策支持，提供更加及时和个性化的服务。</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='box2'>
+
+      <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/W.png'></image>
+          <view class='name_name'>
+            <view>为什么选择我们</view>
+            <text>hy choose us</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='box2-con'>
+        <view>
+          <view class='ul'>
+            <view class='li'>
+              <image src='../../images/soft6.png'></image>
+              <view>
+                <view class='li-tit'>提供专业解决方案</view>
+                <view class='li-con'>更加深度的锁定客户的核心需求</view>
+              </view>
+            </view>
+            <view class='li'>
+              <image src='../../images/soft7.png'></image>
+              <view>
+                <view class='li-tit'>专注软件研发十年</view>
+                <view class='li-con'>用10年的研发经验，为项目保驾护航</view>
+              </view>
+            </view>
+          </view>
+          <view class='ul'>
+            <view class='li'>
+              <image src='../../images/soft8.png'></image>
+              <view>
+                <view class='li-tit'>高效质量管理体系</view>
+                <view class='li-con'>通过IOS9001和CMMI3国际质量体系认证</view>
+              </view>
+            </view>
+            <view class='li'>
+              <image src='../../images/soft9.png'></image>
+              <view>
+                <view class='li-tit'>创新服务助力企业</view>
+                <view class='li-con'>为客户迭代服务水平，助力企业高效信息化</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='box3'>
+
+      <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/S.png'></image>
+          <view class='name_name'>
+            <view>服务流程</view>
+           <text>ervice process</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='box3-con'>
+        <view class='box3-ul'>
+          <view class='box3-li'>
+            <text class='shuzi'>1</text>
+            <text class='wenzi'>需求沟通</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>2</text>
+            <text class='wenzi'>软件规划</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>3</text>
+            <text class='wenzi'>U I设 计</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>4</text>
+            <text class='wenzi'>程序开发</text>
+          </view>
+        </view>
+        <view class='shu'>
+          <image src='../../images/icon/shu.png'></image>
+        </view>
+        <view class='box3-ul'>
+          <view class='box3-li'>
+            <text class='shuzi'>5</text>
+            <text class='wenzi'>发布测试</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>6</text>
+            <text class='wenzi'>付清尾款</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>7</text>
+            <text class='wenzi'>完成验收</text>
+          </view>
+          <view class='box3-li'>
+            <text class='shuzi'>8</text>
+            <text class='wenzi'>售后服务</text>
+          </view>
+        </view>
+      </view>
+
+
+      <!-- <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/C.png'></image>
+          <view class='name_name'>
+            <view>案例展示</view>
+            <text>ase presentation</text>
+          </view>
+        </view>
+      </view> -->
+    </view>
+    
+<template is="Alist"  data="{{ imgList }}"></template>
+<!-- <navigator class='buttom' url="../caseShow/caseShow" hover-class="none">
+    <image src='../../images/icon/morea.png'></image>
+    <text>MORE</text>
+</navigator> -->

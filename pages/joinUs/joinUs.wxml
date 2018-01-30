@@ -1,0 +1,17 @@
+<import src="../../Component/Component/Component.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+<view class='bodyw' bindtap='bodyNone'>
+
+  <view bindtap='bodyNone'>
+    <view class='logName'>
+      <image src='../../images/background/banner.png'></image>
+      <view class='nameComponent'>
+        <image src='../../images/icon/J.png'></image>
+        <view class='name_name'>
+          <view style='color:#fff'>加入我们</view>
+          <text style='color:#fff'>oin us</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

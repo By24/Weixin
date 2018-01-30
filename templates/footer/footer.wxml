@@ -1,0 +1,38 @@
+<template name="footer">
+  <view class="menu">
+    <view class="homePage">
+      <image src="../../images/homepage/nav-icon.png" style="left:79rpx;"></image>
+      <text class="text" style="margin-left:108rpx;">首页</text>
+    </view>
+    <view class="serverArea">
+      <view bindTap='click1'>
+        <image src="../../images/homepage/nav-icon.png"></image>
+        <text class="text">服务范围</text>
+      </view>
+      <view wx:if="{{flag!=0}}">
+        <view class="inner inner1" wx:if="{{flag==1}}">
+          <navigator url='../game/game'>游戏开发</navigator>
+          <navigator url="../dev/dev">APP开发</navigator>
+          <navigator url="../ruanjian/ruanjian">软件开发</navigator>
+          <navigator url="../website/website">网站开发</navigator>
+          <navigator url="../weixin/weixin">微信开发</navigator>
+          <navigator url="">运营维护</navigator>
+          <navigator url="">案例展示</navigator>
+        </view>
+      </view>
+    </view>
+    <view class="contactUs">
+      <view bindTap='click2'>
+        <image src="../../images/homepage/nav-icon.png"></image>
+        <text class="text">联系我们</text>
+      </view>
+      <view wx:if="{{flag!=0}}">
+        <view class="inner inner2" wx:if="{{flag==2}}">
+          <navigator>新闻动态</navigator>
+          <navigator>加入我们</navigator>
+          <navigator>联系我们</navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

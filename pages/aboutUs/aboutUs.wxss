@@ -1,0 +1,47 @@
+
+.map{
+  position: absolute;
+  z-index: -100
+}
+.boutUs_text{
+  padding: 44rpx 0;
+  margin: 0 32rpx;
+  border-bottom: 1rpx solid #e5e5e5;
+  
+}
+.boutUs_text>text{
+  padding-bottom: 30rpx;
+}
+.boutUs_text>text{
+  display: block;
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #3e3a39;
+}
+
+.contact_title image{
+  width: 107rpx;
+  height: 17rpx;
+}
+.title_c>image{
+  width: 42rpx;
+  height: 47rpx;
+}
+.My_address{
+  text-align: center;
+  font-size: 26rpx;
+  line-height: 44rpx;
+  padding-bottom: 60rpx;
+}
+.My_address view{
+  color: #333;
+}
+.My_address>image{
+  padding-top: 22rpx;
+  width: 170rpx;
+  height: 170rpx;
+}
+.map{
+  height: 100%;
+  width: 100%;
+}

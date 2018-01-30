@@ -1,0 +1,290 @@
+.header{
+  width: 750rpx;
+  height: 300rpx;
+  position: relative;
+}
+.header_centent{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:  0 30rpx;
+  position: absolute;
+  top: 0;
+  margin-top: -20rpx;
+  width: 380rpx;
+  height: 100%;
+  line-height: 32rpx
+}
+.header1_text{
+  padding-top: 10rpx;
+}
+.container{
+  padding: 0;
+}
+.header>image {
+  width: 100%;
+  height: 300rpx;
+} 
+
+.headFont {
+  width: 48%;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -250rpx;
+  padding-left: 20rpx;
+} 
+
+.head-tit {
+  font-family: "PingFang-SC-Bold";
+  font-size: 32rpx;
+  line-height: 40rpx;
+  color: "#fff";
+  font-weight: 600;
+}
+
+.head-con {
+  padding-left: 10rpx;
+  width: 400rpx;
+  line-height: 36rpx;
+  text-align: left;
+  margin-top: 20rpx;
+  font-family: 'PingFang-SC-Medium';
+  font-size: 24rpx;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.box1, .box2, .box3 {
+  height: auto;
+  padding: 0 35rpx;
+}
+
+.box1-head {
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+
+.box1-head>image {
+  width: 34rpx;
+  height: 46rpx;
+  padding-right: 308rpx;
+}
+
+.box1-font {
+  width: 308rpx;
+  text-align: left;
+  position: relative;
+  top: -60rpx;
+  left: 210rpx;
+}
+
+.box1-font>view {
+  font-family: 'PingFang-SC-Bold';
+  font-size: 34rpx;
+}
+
+.box1-font>image {
+  width: 252rpx;
+  height: 26rpx;
+}
+
+.list1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1rpx solid #e1e1e1;
+  padding-bottom: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.box1-img {
+  margin: 0 30rpx;
+}
+
+.box1-img image {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.box1Font-tit {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #444;
+}
+
+.box1Font-con {
+  font-size: 24rpx;
+  line-height: 36rpx;
+  color: #888;
+}
+
+.box2 {
+  padding: 0 30rpx;
+}
+
+.box2-head {
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+
+.box2-head>image {
+  width: 59rpx;
+  height: 47rpx;
+  padding-right: 321rpx;
+}
+
+.box2-font {
+  width: 238rpx;
+  text-align: left;
+  position: relative;
+  top: -60rpx;
+  left: 210rpx;
+}
+
+.box2-font>view {
+  font-family: 'PingFang-SC-Bold';
+  font-size: 34rpx;
+}
+
+.box2-font>image {
+  width: 153rpx;
+  height: 26rpx;
+}
+.box2-con{
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.ul {
+  display: flex;
+}
+
+.li {
+  width: 47%;
+  text-align: center;
+}
+
+.li>image {
+  width: 41rpx;
+  height: 95rpx;
+}
+
+.li-tit {
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: #444;
+  margin-top: -40rpx;
+}
+
+.li-con {
+  width: 70%;
+  margin: 20rpx auto;
+  font-size: 24rpx;
+  line-height: 40rpx;
+  color: #888;
+}
+
+.box3{
+  padding: 0 30rpx;
+}
+.box3-head {
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+
+.box3-head>image {
+  width: 36rpx;
+  height: 47rpx;
+  padding-right: 232rpx;
+}
+
+.box3-font {
+  width:170rpx;
+  text-align: left;
+  position: relative;
+  top: -60rpx;
+  left: 263rpx;
+}
+
+.box3-font>view {
+  font-family: 'PingFang-SC-Bold';
+  font-size: 34rpx;
+}
+
+.box3-font>image {
+  width: 153rpx;
+  height: 26rpx;
+}
+
+.box3-con{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0 35rpx;
+  padding-bottom: 35rpx;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.shu>image{
+  height: 400rpx;
+  width: 3rpx;
+  margin:-30rpx 70rpx 0 70rpx;
+}
+.box3-li{
+  line-height: 80rpx;
+}
+.shuzi{
+  display: inline-block;
+  width:25rpx;
+  height:25rpx;
+  line-height:25rpx;
+  text-align: center;
+  background-color: #33acec;
+  border-radius: 50%;
+  font-size: 20rpx;
+  color: #fff;
+  margin-right: 10rpx;
+}
+.wenzi{
+  font-size:26rpx;
+  color: #666;
+}
+
+.box4{
+  padding: 0 30rpx;
+}
+.box4-head {
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+
+.box4-head>image {
+  width: 36rpx;
+  height: 47rpx;
+  padding-right: 237rpx;
+}
+
+.box4-font {
+  width:195rpx;
+  text-align: left;
+  position: relative;
+  top: -60rpx;
+  left: 232rpx;
+}
+
+.box4-font>view {
+  font-family: 'PingFang-SC-Bold';
+  font-size: 34rpx;
+}
+
+.box4-font>image {
+  width: 153rpx;
+  height: 26rpx;
+}

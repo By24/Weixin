@@ -1,0 +1,187 @@
+
+/* page{
+  padding-bottom: 100rpx;
+  height: 302rpx;
+}
+.container{
+  padding: 0;
+}
+.gemHeaderd{
+  width:750rpx;
+  height: 300rpx;
+}
+.header>image{
+  width: 100%;
+  height: 300rpx; 
+}
+.headFont{
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top:-220rpx;
+}
+.hanZi{
+  font-size:28rpx;
+	color: "#ffffff";
+  flex-direction: row;
+  padding-bottom: 20rpx;
+}
+.hanZi>text{
+  color:#43dbf9;
+}
+.yingWen{
+	font-size:18rpx;
+	color: "#ffffff";
+} */
+.gemHeaderd,.gemHeaderd>image{
+  width: 100%;
+  height: 300rpx;
+}
+.gemHeaderd{
+  position: relative;
+}
+.headFontd{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin-top: -20rpx;
+  text-align: center;
+  height: 300rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  line-height: 50rpx;
+}
+
+
+
+
+
+
+
+.section{
+  width: 100%;
+  height:auto;
+}
+.box1,.box2,.box3{
+  height:auto;
+  padding:0 35rpx;
+}
+.box1-head{
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+.box1-head>image{
+  width: 34rpx;
+  height: 46rpx;
+  padding-right: 308rpx;
+}
+.box1-font{
+  width: 308rpx;
+  text-align: left;
+  position:relative;
+  top:-60rpx;
+  left:210rpx;
+}
+.box1-font>view{
+	font-size: 34rpx;
+}
+.box1-font>image{
+  width:307rpx;
+  height: 21rpx;
+}
+.box1Con-tit{
+	font-family: PingFang-SC-Medium;
+	font-size: 30rpx;
+	font-weight: normal;
+	line-height: 80rpx;
+	letter-spacing: 0px;
+	color: #444444;
+}
+.box1Con-sec{
+  line-height: 36rpx;
+	font-family: PingFang-SC-Medium;
+	font-size: 24rpx;
+	color: #888888;
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx solid #e1e1e1;
+}
+
+.box2-head{
+  height: 110rpx;
+  margin-top:50rpx;
+  text-align: center;
+}
+.box2-head>image{
+  width:55rpx;
+  height:44rpx;
+  padding-right:236rpx;
+}
+.box2-font{
+  width: 236rpx;
+  text-align: left;
+  position:relative;
+  top:-60rpx;
+  left:260rpx;
+}
+.box2-font>view{
+	font-size: 34rpx;
+}
+.box2-font>image{
+  width:153rpx;
+  height: 26rpx;
+}
+.box2-img{
+  text-align: center;
+}
+.box2-img>image{
+  width: 531rpx;
+  height: 173rpx;
+}
+.box2Con-sec{
+  line-height: 36rpx;
+	font-size: 24rpx;
+	color: #888888;
+  padding-bottom: 30rpx;
+  text-indent: 2em;
+}
+
+.box3-head{
+  height: 110rpx;
+  margin-top: 45rpx;
+  text-align: center;
+}
+.box3-head>image{
+  width:41rpx;
+  height: 47rpx;
+  padding-right:194rpx;
+}
+.box3-font{
+  width: 320rpx;
+  text-align: left;
+  position:relative;
+  top:-60rpx;
+  left:240rpx;
+}
+.box3-font>view{
+	font-size: 34rpx;
+}
+.box3-font>image{
+  width:194rpx;
+  height: 25rpx;
+
+}
+
+.image-group{
+  left:15rpx;
+  height: 800rpx;width: 720rpx;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+ .image-group image{
+  width: 335rpx;height: 244rpx;
+}

@@ -1,0 +1,176 @@
+
+@import "../ruanjian/ruanjian.wxss";
+.container{
+  padding: 0;
+}
+.header12 {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+}
+.header12 .p1 {
+  width: 100%;
+  height: 100%;
+}
+
+.header12 text {
+  display: block;
+  width: 319rpx;
+  height: 69rpx;
+  position: absolute;
+  top: 110rpx;
+  left: 93rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  line-height: 40rpx;
+  color: #fff;
+}
+
+.header12 .p2 {
+  display: block;
+  width: 158rpx;
+  height: 324rpx;
+  position: absolute;
+  top: 32rpx;
+  left: 545rpx;
+}
+
+.descv{
+  text-align: center;
+  line-height: 48rpx;
+  font-size: 24rpx;
+  color: #666;
+  padding-bottom: 40rpx;
+}
+
+.sec{
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  padding: 0 30rpx;
+  height: 180rpx;
+  align-items: center;
+}
+.num{
+  font-size: 48rpx;
+  color: #289be8;
+  margin-right: 38rpx;
+}
+.des{
+  width: 598rpx;
+  display: block;
+  font-size: 24rpx;
+  line-height: 32rpx;
+  color: #666;
+  flex-grow: 1
+}
+.CoMColor{
+  background-color: #eee
+}
+
+
+
+.reasonsTitle{
+  padding: 70rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32rpx;
+  line-height: 32rpx;
+  color: #666;
+}
+.leftBorder{
+  width: 130rpx;
+  border: 0.5rpx solid #ddd;
+  margin: 0 10rpx;
+}
+
+
+
+.group1r{
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  margin: 0 30rpx;
+  text-align: center;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  color: #666;
+  height: 250rpx;
+  justify-content: space-between;
+}
+.group1r>view{
+  width: 200rpx;
+  height: 200rpx;
+}
+.group1r image{
+  display: block;
+  margin: auto;
+  padding-bottom: 36rpx;
+  width: 50%;
+  height: 44%;
+}
+
+
+
+
+
+
+.line1 {
+  width: 90%;
+  height: 1rpx;
+  background: #ccc;
+  margin-top: -70rpx;
+}
+
+.line2 {
+  width: 90%;
+  height: 1rpx;
+  background: #ccc;
+}
+
+
+
+ .items {
+   margin: 0 30rpx;
+   border-bottom: 1rpx solid #ddd;
+  height: 500rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.items>view {
+  width: 280rpx;
+  height: 220rpx;
+}
+
+.items>view image {
+  padding-bottom: 30rpx;
+  width: 103rpx;
+  height: 103rpx;
+  display: block;
+  margin: 0 auto;
+}
+
+.items>view view {
+  font-size: 26rpx;
+  line-height: 36rpx;
+  text-align: center;
+  color: #666;
+}
+
+
+.serviceC{
+  padding:  0 30rpx;
+}
+.serviceTitle{
+  font-weight: 600;
+  padding:  20rpx 0;
+  font-size: 28rpx;
+  color: #555;
+}
+.serviceText{
+  font-size: 24rpx;
+  color: #555;
+  padding-bottom: 40rpx;
+}

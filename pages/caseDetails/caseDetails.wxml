@@ -1,0 +1,15 @@
+<!-- 头部模板 -->
+<import src="../../Component/Component/Component.wxml" />
+<import src="../../wxParse/wxParse.wxml" />
+<template is="homeHead"></template>
+<!-- footer模板 -->
+<import src="../../Component/Component/Component.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+
+
+<view class='centent'>
+  <view class='title title1'>{{ Details.projectTitle}}</view>
+  <image src='{{ http + Details.cd_listImg}}' style='width:400rpx;height: 250rpx'></image>
+  
+   <view class='cent_text'><template is="wxParse" data="{{wxParseData:article.nodes}}"/></view> 
+</view>

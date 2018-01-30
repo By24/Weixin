@@ -1,0 +1,131 @@
+
+.homeHeadImg{
+  width: 100%;
+  height: 302rpx;
+  position: absolute;
+  z-index: -1
+}
+.homeHead{
+  width: 100%;
+  height: 302rpx;
+  color: #fff;
+}
+.homeHeadNav image{
+  width: 90rpx;
+  height: 90rpx;
+  display: block;
+}
+.homeHeadNav{
+  padding: 0 100rpx;
+  line-height: 16rpx;
+  font-size: 22rpx;
+  display: flex;
+  text-align: center;
+  color: #fff;
+}
+.homeHeadNav text{
+  display: block;
+  margin-top: -50rpx;
+}
+.headtext{
+  padding:  80rpx 0 30rpx 0;
+  text-align: center;
+  font-size: 36rpx;
+  line-height: 36rpx;
+  font-weight: 600;
+}
+.homeHeadNav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  bottom:0;
+  left:0;
+  font-size: 32rpx;
+  color: #666;
+  border-top: 1rpx solid #ddd;
+  background-color: #fff;
+}
+.footer image{
+  padding-right: 10rpx;
+  display: block;
+  width: 19rpx;
+  height: 15rpx;
+}
+.footer>view:nth-child(2){
+  border-right: 1rpx solid #ddd;
+  border-left: 1rpx solid #ddd;
+}
+.footer>view{
+  display: flex;
+  flex-grow: 1;
+  position: relative; 
+  height: 85rpx;
+  line-height: 85rpx; 
+  width: 250rpx; 
+  justify-content: center;
+}
+ .Cfooter{
+  position: absolute;
+  background-color: #fff;
+  width: 100%;
+  border: 1rpx solid #ddd;
+  z-index: -10;
+  bottom: 85rpx;
+  text-align: center;
+} 
+.footerNav{
+  padding: 0 42rpx;
+  display: flex; 
+  align-items: center; 
+}
+.footerNav>image,.footerNav>view{
+   flex-flow: 1;
+}
+.Cfooter>navigator{
+  border-bottom: 1rpx solid #ddd;
+}
+.Cfooter>navigator:nth-last-child(1){
+     border-bottom: none 
+}
+
+.Alist>navigator,.Alist image{
+ margin: 14rpx 0;
+  width: 335rpx;
+  height: 224rpx;
+  border-radius: 10rpx; 
+}
+.Alist{
+  display: flex;
+   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30rpx 
+}
+.buttom image{
+  width: 200rpx;
+  height: 60rpx;
+
+}
+.buttom{
+  width: 200rpx;
+  height: 60rpx;
+  margin: 40rpx auto 34rpx;
+  position: relative;
+  
+}
+.buttom>text{
+  display: block;
+  position: absolute;
+  top: 0;
+  margin-top: 13rpx;
+  left: 31%;
+  color: #fff;
+  font-size: 26rpx;
+}
+

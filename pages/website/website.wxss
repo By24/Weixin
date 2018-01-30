@@ -1,0 +1,182 @@
+.header1{
+  height: 300rpx;
+}
+.header1 image{
+ width: 100%;
+ height: 300rpx;
+
+}
+.header1_centent{
+  width: 334rpx;
+  color: #fff;
+  padding: 0 28rpx;
+  margin-top: -260rpx;
+}
+.header1_title{
+  font-weight: 700;
+  font-size: 32rpx;
+}
+.header1_text{
+  font-size: 24rpx;
+}
+
+/* 服务简述 */
+.briefly{
+  padding: 30rpx;
+  font-size: 32rpx;
+  display: flex;
+  justify-content: center;
+  color: #656565;
+}
+.briefly>image{
+  margin:4rpx 12rpx 0 0 ;
+  width: 36rpx;
+  height: 48rpx;
+}
+.briefly_title>image{
+  width: 210rpx;
+  height: 24rpx;
+}
+
+.briefly_list{
+  padding: 0 28rpx;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.briefly_list view{
+  width: 176rpx;
+  padding-bottom: 80rpx;
+}
+.briefly_list image{
+  display: block;
+  margin: auto;
+  width: 60rpx;
+  height: 60rpx;
+}
+.briefly_list text{
+  margin-top: 30rpx;
+  text-align: center;
+  display: block;
+  font-size: 24rpx;
+  color: #444444
+}
+
+/* 开发语言及工具 */
+
+.development_Language{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #666666;
+  font-size: 30rpx;
+}
+.development_Language>view{
+  border-bottom: .5rpx solid #ddd;
+  padding: 0 10rpx;
+  width: 140rpx;
+}
+.language_list{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40rpx;
+  border-bottom: 1px solid #e5e5e5 ;
+
+}
+.language_list>navigator{
+  display: block;
+  width: 74rpx;
+  height: 74rpx;
+  margin: 54rpx 0;
+}
+
+.language_list image{
+  width: 100%;
+  height: 100%;
+}
+
+/* 服务项目文本 */
+.service_cent{
+  display: flex;
+  padding: 48rpx 0 48rpx 54rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.service_text>text{
+  width: 406rpx;
+  margin: auto;
+  display: block;
+  line-height: 36rpx;
+  text-align: center;
+  font-size: 24rpx;
+	color: #666666
+}
+.service_list view{
+  font-size: 28rpx;
+	line-height: 46rpx;
+	color: #666666;
+}
+.service_cent image{
+  width: 350rpx;
+  height: 292rpx;
+}
+.img_border{
+  width: 690rpx;
+  display: block;
+  margin: auto;
+  border-bottom: 0.5px solid #ddd;
+}
+
+/* 服务流程 */
+.process{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 120rpx;
+  margin: 0 30rpx;
+  font-size: 26rpx;
+  color: #666;
+  border-bottom: 1px solid #e5e5e5 ;
+}
+.process image{
+  width: 2rpx;
+}
+.process label{
+  line-height: 80rpx;
+}
+.process_num{
+  margin-right: 30rpx;
+  font-size: 20rpx;
+  background-color: #33acec;
+  border-radius: 50%;
+  padding: 0 10rpx;
+  color: #fff;
+}
+/* 案列展示 */
+.case_show{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.case_show navigator,.case_show image{
+  width: 336rpx;
+  height: 224rpx;
+  margin-bottom:22rpx; 
+}
+.button{
+  display: block;
+  margin: 44rpx 0;
+}
+.button>image,.button{
+  width: 200rpx;
+  height: 60rpx;
+}
+
+.button>view{
+ text-align: center;
+ position:relative;
+ color: #fff;
+ font-size: 26rpx;
+}

@@ -1,0 +1,31 @@
+{
+  "pages": [
+      "pages/index/index",
+    "pages/newsDetails/newsDetails",
+    "pages/news/news",
+  
+    "pages/caseDetails/caseDetails",
+    "pages/dev/dev",
+    "pages/ruanjian/ruanjian",
+    "pages/weixin/weixin",
+    "pages/website/website",
+    "pages/operate/operate",
+    "pages/joinUs/joinUs",
+    "pages/game/game",
+    "pages/caseShow/caseShow",
+    "pages/aboutUs/aboutUs"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "忆享科技",
+    "navigationBarTextStyle": "#fff"
+  },
+  "networkTimeout": {
+    "request": 1000,
+    "downloadFile": 1000
+  },
+  "debug": false
+}

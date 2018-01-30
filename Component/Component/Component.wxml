@@ -1,0 +1,100 @@
+<template name="homeHead">
+  <image src='../../images/background/titleBar.png' class='homeHeadImg'></image>
+  <view class='homeHead'>
+    <view class='headtext'>
+      <label style='color:rgb(67,219,249)'> 专 注 </label>
+      <label>于 互 联 网 产 品 开 发 </label>
+    </view>
+    <view class='homeHeadNav'>
+      <navigator url="../game/game" hover-class="none">
+        <image src='../../images/icon/circle.png'></image>
+        <text>游戏</text>
+      </navigator>
+      <navigator url="../dev/dev" hover-class="none">
+        <image src='../../images/icon/circle.png'></image>
+        <text>APP</text>
+      </navigator>
+      <navigator url="../ruanjian/ruanjian" hover-class="none">
+        <image src='../../images/icon/circle.png'></image>
+        <text>软件</text>
+      </navigator>
+      <navigator url="../website/website" hover-class="none">
+        <image src='../../images/icon/circle.png'></image>
+        <text>网站</text>
+      </navigator>
+      <navigator url="../weixin/weixin" hover-class="none">
+        <image src='../../images/icon/circle.png'></image>
+        <text>微信</text>
+      </navigator>
+    </view>
+  </view>
+</template>
+
+
+<template name="footer">
+  <view class='footer'>
+    <!-- 首页 -->
+    <view>
+      <view class='footerNav' bindtap='footer' data-id='1'>
+        <!-- <image src="../../images/homepage/nav-icon.png" style="left:79rpx;"></image> -->
+        <view>首页</view>
+      </view>
+      <!-- <view class='Cfooter' wx:if="{{ footer.flag == 1 }}">
+              <navigator wx:for="{{ footer.homePage }}" wx:key="{{ item }}">{{ item }}</navigator>
+          </view>  -->
+    </view>
+    <!-- 服务范围 -->
+    <view>
+      <view class='footerNav' bindtap='footer' data-id='2'>
+        <image src="../../images/homepage/nav-icon.png" style="left:79rpx;"></image>
+        <view>服务范围</view>
+      </view>
+      <view class='Cfooter' wx:if="{{ footer.flag == 2 }}">
+        <navigator url="../game/game" hover-class="none" redirect>游戏开发</navigator>
+        <navigator url="../dev/dev" hover-class="none" redirect>APP开发</navigator>
+        <navigator url="../ruanjian/ruanjian" hover-class="none" redirect>软件开发</navigator>
+        <navigator url="../website/website" hover-class="none" redirect>网站开发</navigator>
+        <navigator url="../weixin/weixin" hover-class="none" redirect>微信开发</navigator>
+        <navigator url="../operate/operate" hover-class="none" redirect>运营维护</navigator>
+        <navigator url="../caseShow/caseShow" hover-class="none" redirect>案例展示</navigator>
+      </view>
+    </view>
+    <!-- 联系我们 -->
+    <view>
+      <view class='footerNav' bindtap='footer' data-id='3'>
+        <image src="../../images/homepage/nav-icon.png" style="left:79rpx;"></image>
+        <view>联系我们</view>
+      </view>
+      <view class='Cfooter' wx:if="{{ footer.flag == 3 }}">
+        <navigator url="../news/news" hover-class="none" redirect>新闻动态</navigator>
+        <navigator url="../joinUs/joinUs" hover-class="none" redirect>加入我们</navigator>
+        <navigator url="../aboutUs/aboutUs" hover-class="none" redirect>联系我们</navigator>
+      </view>
+    </view>
+  </view>
+</template>
+
+<template name="Alist">
+  <scroll-view>
+    <view class='homeT' wx:if="{{!imgList.title}}">案例展示</view>
+    <view class='bor' wx:if="{{!imgList.title}}"></view>
+    <view class='logName' wx:if="{{!imgList.title1}}">
+      <view class='nameComponent'>
+        <image src='../../images/icon/C.png'></image>
+        <view class='name_name'>
+          <view>案列展示</view>
+          <text>ase presentation</text>
+        </view>
+      </view>
+    </view>
+    <view class='Alist'>
+      <navigator wx:for="{{ imgList.dataList }}" wx:key="{{item}}" url="../caseDetails/caseDetails?id={{item.id}}" hover-class="none">
+        <image src='{{ imgList.http +item.cd_listImg }}'></image>
+      </navigator>
+    </view>
+    <navigator class='buttom' url="../caseShow/caseShow" hover-class="none" wx:if="{{!imgList.title2}}">
+      <image src='../../images/icon/morea.png'></image>
+      <text>MORE</text>
+    </navigator>
+  </scroll-view>
+</template>

@@ -1,0 +1,80 @@
+<import src="../../Component/Component/Component.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+<view bindtap='bodyNone'>
+  <view class='gemHeaderd'>
+    <image src='../../images/background/APPGame.png'></image>
+    <view class='headFontd' style='margin: auto；font-size:38rpx'>
+      <view class='hanZi' style=' font-weight:600'>
+        <text style='color:rgb(67,219,249)'>专 注</text> 手 机 棋 牌 游 戏 开 发
+      </view>
+      <view style='font-size:20rpx'>Focus on mobile game development</view>
+    </view>
+  </view>
+
+  <view class='section'>
+    <view class='box1'>
+      <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/P.png'></image>
+          <view class='name_name'>
+            <view>个性化手游定制</view>
+            <text>ersonalized customization</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='box1-con'>
+        <view class='box1Con-tit'>游戏量身打造</view>
+        <view class='box1Con-sec'>
+          针对不同企业状况、客户特殊需求等量身打造，从专业化的招商加盟方案定制，独一无二的视觉效果设计，到易于速度加载的规范化代码编写，易于操作的人性化管理后台，无不体现“定制”的意义。
+        </view>
+
+        <view class='box1Con-tit'>游戏领先设计</view>
+        <view class='box1Con-sec'>
+          为客户定制适合自己的游戏平台形象，尊重访问者视觉体验和浏览习惯，用户体验友好，注重信息架构分析，界面设计、互动设计和内容制作，为客户提供高价值的平台。
+        </view>
+
+        <view class='box1Con-tit'>游戏全网加盟</view>
+        <view class='box1Con-sec'>
+          全网是一个新概念，是互联网时代的必然产物，更是企业在未来几年内的生存之道。红鼎为客户提供全方位全网加盟。IOS系统、安卓系统、PC，同时完整的将互联网各平台结合，实现一站式管理。
+        </view>
+
+      </view>
+
+    </view>
+
+    <view class='box2'>
+      <view class='logName '>
+        <view class='nameComponent'>
+          <image src='../../images/icon/W.png'></image>
+          <view class='name_name'>
+            <view>为什么选择我们</view>
+            <text>hy choose us</text>
+          </view>
+        </view>
+      </view>
+
+
+      <view class='box2-con'>
+        <view class='box2-img'>
+          <image src='../../images/homepage/Game1.png'></image>
+        </view>
+
+        <view class='box1Con-tit'>专注棋牌开发11年</view>
+        <view class='box2Con-sec'>
+          不断深入对各类行业属性以及商业模式的探索，全面了解企业现状、深入挖掘品牌价值、专业策划并准确全是产品价值。采用当下最流行的游戏开发平台，致力于为客户提供稳定，高效，高品质的游戏开发解决方案。
+        </view>
+
+        <view class='box1Con-tit'>关于我们的团队</view>
+        <view class='box2Con-sec'>
+          我们是追求品质与力求不断超越自己的团队，每一位成员也是亲密的伙伴，与公司一起成长与发展。我们尊重每次合作的机会与挑战，不断精进，力求完美。
+        </view>
+        <view class='box2Con-sec'>
+          团队秉承高质量、专注、专业的服务思维，让客户通过棋牌游戏发挥最大价值，并发掘无限的可能。让工作成为一种快乐的生活是我们追求的理念，将视觉感知和艺术内涵融入到设计中，我们相信，洋溢着思想的设计才是真正的设计，充实着思想的作品才是真正的作品。除了个性，我们强调的还有沟通；除了感性与激情，我们强调的还有冷静、理智和清醒的方向；除了设计，我们强调的还有设计背后的思考, 并坚信设计的力量让我们不断前进…
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <template is="Alist" data="{{ imgList }}"></template>
+</view>

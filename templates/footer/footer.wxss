@@ -1,0 +1,50 @@
+.menu{
+  z-index: 999;
+  background: #fff;
+  width: 100%;height: 85rpx;
+  position: fixed;
+  bottom:0;left:0;
+  display: flex;
+  flex-direction: row;
+}
+.menu>view{
+  width: 250rpx;
+  height: 85rpx;
+  border: 1px solid rgb(232,236,237);
+  border-right:none; 
+  position: relative;
+  display: flex;
+}
+.menu image{
+  display: block;
+  width: 19rpx;height: 15rpx;
+  position: absolute;top:40rpx;left:47rpx;
+}
+.menu .text{
+  font-size: 32rpx;color: #666;
+  margin-left: 80rpx;line-height: 85rpx;
+}
+.menu .inner{
+  position: absolute;
+  bottom:85rpx;
+  width: 250rpx;
+  height: 530rpx;
+  background: #fff;
+  left:-1rpx; 
+  display: block;
+}
+.menu .inner navigator{
+  width: 248rpx;
+  display: block;
+  border: 1px solid rgb(232,236,237);
+  height:75rpx; border-bottom: none;
+  color:#666;font-size: 32rpx;
+  line-height: 75rpx;
+  text-align: center;
+}
+.menu .inner navigator:last-child{
+  border-bottom: 1px solid rgb(232,236,237);
+}
+.menu .inner2{
+  height: 230rpx;bottom: 83rpx;
+}

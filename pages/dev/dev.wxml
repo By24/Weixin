@@ -1,0 +1,177 @@
+<import src="../../Component/Component/Component.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+
+<view class="header12">
+  <image class="p1" src="../../images/background/head.png"></image>
+  <image class="p2" src="../../images/background/iphone.png"></image>
+  <text>专业的APP移动端应用程序开发团队</text>
+</view>
+
+
+<view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/S.png'></image>
+    <view class='name_name'>
+      <view>服务简述</view>
+      <text>erver description</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="descv">
+  <view>为客户提供专业iphone/ipad软件开发,Android软件开发;</view>
+  <view>专业定制开发各种应用软件系统，</view>
+  <view>掌握各种手机开发平台及现在流行的手机开发结构，</view>
+  <view>能有效满足手机软件系统的开发需求。</view>
+</view>
+
+
+
+<view class="sec CoMColor">
+  <view class="num">01</view>
+  <text class="des">APP用户增长速度快、经济能力强，思维活跃。</text>
+</view>
+
+<view class="sec">
+  <view class="num">02</view>
+  <text class="des">App可整合LBS、QR、AR等新技术，带给用户前所未有的用户体验。</text>
+</view>
+
+<view class="sec CoMColor">
+  <view class="num">03</view>
+  <text class="des">App基于手机的随时随身性、互动性特点,容易通过微博、SNS等方式分享和传播，实现裂变式增长</text>
+</view>
+
+<view class="sec">
+  <view class="num">04</view>
+  <text class="des">通过新技术以及数据分析，APP可实现精准定位企业目标用户，实现低成本快速增长成为可能。</text>
+</view>
+
+<view class="sec CoMColor">
+  <view class="num">05</view>
+  <text class="des">用户手机安装APP以后，企业即埋下一颗种子，可持续与用户保持联系。</text>
+</view>
+
+
+<view class='reasonsTitle'>
+  <view class='leftBorder'></view>
+  <view>企业开发APP客户端的理由</view>
+  <view class='leftBorder'></view>
+</view>
+
+<view class="group1r">
+  <view>
+    <image src="../../images/¥@2x.png"></image>
+    <view>手机端App</view>
+    <view>成为主要网购工具</view>
+  </view>
+
+  <view>
+    <image src="../../images/dianziicon@2x.png"></image>
+    <view>App开发促进移</view>
+    <view>动电子商务的发展</view>
+  </view>
+
+  <view>
+    <image src="../../images/形状5@2x.png"></image>
+    <view>企业通过手机端</view>
+    <view>App销售更加精准</view>
+  </view>
+</view>
+
+
+<view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/S.png'></image>
+    <view class='name_name'>
+      <view>服务项目</view>
+      <text>ervice items</text>
+    </view>
+  </view>
+</view>
+
+
+<view class="items">
+  <view>
+    <image src="../../images/inter.png"></image>
+    <view>界面设计</view>
+    <view>Interface design</view>
+  </view>
+  <view>
+    <image src="../../images/client.png"></image>
+    <view>客户开发</view>
+    <view>Client development</view>
+  </view>
+  <view>
+    <image src="../../images/h5.png"></image>
+    <view>HTML5开发</view>
+    <view>HTML5 development</view>
+  </view>
+  <view>
+    <image src="../../images/app.png"></image>
+    <view>APP维护</view>
+    <view>APP maintenance</view>
+  </view>
+</view>
+
+<view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/S.png'></image>
+    <view class='name_name'>
+      <view>服务流程</view>
+      <text>ervice process</text>
+    </view>
+  </view>
+</view>
+
+<view class='serviceC'>
+  <view class='serviceTitle'>服务端</view>
+  <view class='serviceText'>使用json进行数据的传输，数据量小，移动端消耗的流量低，能够与app达成通讯，方便快捷。</view>
+
+  <view class='serviceTitle'>支持全平台覆盖</view>
+  <view class='serviceText'>能够实现iphone/ipad、安卓系统的手机、pad等终端平台的数据信息的传递接收。各个终端将传递过来的数据将以相应的界面呈现出来给用户浏览</view>
+</view>
+
+<view class='box3-con'>
+  <view class='box3-ul'>
+    <view class='box3-li'>
+      <text class='shuzi'>1</text>
+      <text class='wenzi'>需求沟通</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>2</text>
+      <text class='wenzi'>软件规划</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>3</text>
+      <text class='wenzi'>U I设 计</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>4</text>
+      <text class='wenzi'>程序开发</text>
+    </view>
+  </view>
+  <view class='shu'>
+    <image src='../../images/icon/shu.png'></image>
+  </view>
+  <view class='box3-ul'>
+    <view class='box3-li'>
+      <text class='shuzi'>5</text>
+      <text class='wenzi'>发布测试</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>6</text>
+      <text class='wenzi'>付清尾款</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>7</text>
+      <text class='wenzi'>完成验收</text>
+    </view>
+    <view class='box3-li'>
+      <text class='shuzi'>8</text>
+      <text class='wenzi'>售后服务</text>
+    </view>
+  </view>
+</view>
+<template is="Alist" data="{{ imgList }}"></template>

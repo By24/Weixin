@@ -1,0 +1,175 @@
+<import src="../../Component/Component/Component.wxml" />
+<template is="footer" data="{{ footer }}"></template>
+
+
+<view bindtap='bodyNone'>
+  <view class='header1'>
+    <image src='../../images/background/banner-2.png' style='height:300rpx;'></image>
+    <view class='header1_centent'>
+      <view class='header1_title'>网站开发</view>
+      <text class='header1_text'>专业的网站设计及开发服务，包括企业网站、互联网网站、电商网站、社交及应用类网站。</text>
+    </view>
+  </view>
+
+  <view class='logName '>
+    <view class='nameComponent'>
+      <image src='../../images/icon/S.png'></image>
+      <view class='name_name'>
+        <view>服务简述</view>
+        <text>ervice description </text>
+      </view>
+    </view>
+  </view>
+
+  <view class='briefly_list'>
+    <view>
+      <image src='../../images/website/r-1.png'></image>
+      <text>全新一代HTM5标准</text>
+    </view>
+    <view>
+      <image src='../../images/website/r-2.png'></image>
+      <text>完全定制开发模式</text>
+    </view>
+    <view>
+      <image src='../../images/website/r-3.png'></image>
+      <text>免费SEO搜索引擎优化</text>
+    </view>
+    <view>
+      <image src='../../images/website/r-4.png'></image>
+      <text>全新UE用户体验设计</text>
+    </view>
+    <view>
+      <image src='../../images/website/r-5.png'></image>
+      <text>以网络营销结果为导向</text>
+    </view>
+    <view>
+      <image src='../../images/website/r-6.png'></image>
+      <text>专属客服人员售后保障</text>
+    </view>
+  </view>
+
+  <!-- 开发语言及工具 -->
+  <view class='development_Language'>
+    <view></view>
+    <text>开发语言及工具</text>
+    <view></view>
+  </view>
+
+  <view class='language_list'>
+    <navigator hover-class='none'>
+      <image src='../../images/website/p.png'></image>
+    </navigator>
+    <navigator hover-class='none'>
+      <image src='../../images/website/s.png'></image>
+    </navigator>
+    <navigator hover-class='none'>
+      <image src='../../images/website/c.png'></image>
+    </navigator>
+    <navigator hover-class='none'>
+      <image src='../../images/website/j.png'></image>
+    </navigator>
+    <navigator hover-class='none'>
+      <image src='../../images/website/o.png'></image>
+    </navigator>
+    <navigator hover-class='none'>
+      <image src='../../images/website/n.png'></image>
+    </navigator>
+  </view>
+
+
+  <!-- 服务项目 -->
+
+  <view class='logName '>
+    <view class='nameComponent'>
+      <image src='../../images/icon/S.png'></image>
+      <view class='name_name'>
+        <view>服务项目</view>
+        <text>ervice items</text>
+      </view>
+    </view>
+  </view>
+  <view class='service_text'>
+    <text>一对一的思考和定义，
+以全新的视觉表达与贴近用户的体验，
+我们实现了从创意到数字品牌的一站式网站建设服务。
+</text>
+    <view class='service_cent'>
+      <view class='service_list'>
+        <view>01.企业官网</view>
+        <view>02.营销型网站 </view>
+        <view>03.购物网站</view>
+        <view>04.门户网站</view>
+        <view>05.HTML5/FLASH全站</view>
+      </view>
+      <image src='../../images/website/wangzhan.png'></image>
+    </view>
+  </view>
+  <view class='img_border'></view>
+
+  <!-- 服务流程 -->
+  <view class='logName '>
+    <view class='nameComponent'>
+      <image src='../../images/icon/S.png'></image>
+      <view class='name_name'>
+        <view>服务流程</view>
+        <text>ervice process</text>
+      </view>
+    </view>
+  </view>
+  <view class='process'>
+    <view>
+      <view>
+        <label class='process_num'>1</label>
+        <label>需求沟通</label>
+      </view>
+      <view>
+        <label class='process_num'>2</label>
+        <label>APP规划</label>
+      </view>
+      <view>
+        <label class='process_num'>3</label>
+        <label>U I设 计</label>
+      </view>
+      <view>
+        <label class='process_num'>4</label>
+        <label>程序开发</label>
+      </view>
+    </view>
+    <image src='../../images/icon/shu.png'></image>
+    <view>
+      <view>
+        <label class='process_num'>5</label>
+        <label>发布测试</label>
+      </view>
+      <view>
+        <label class='process_num'>6</label>
+        <label>付清尾款</label>
+      </view>
+      <view>
+        <label class='process_num'>7</label>
+        <label>完成验收</label>
+      </view>
+      <view>
+        <label class='process_num'>8</label>
+        <label>售后服务</label>
+      </view>
+    </view>
+  </view>
+
+
+
+  <!-- 案列展示 -->
+  <!-- <view class='briefly'>
+    <image src='../../images/icon/C.png'></image>
+    <view class='briefly_title'>
+      <view>案例展示</view>
+      <text>ase presentation</text>
+    </view>
+  </view> -->
+
+  <template is="Alist" data="{{ imgList }}"></template>
+  <!-- <navigator class='buttom' url="../caseShow/caseShow" hover-class="none">
+    <image src='../../images/icon/morea.png'></image>
+    <text>MORE</text>
+  </navigator> -->
+</view>

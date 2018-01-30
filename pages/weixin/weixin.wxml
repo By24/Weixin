@@ -1,0 +1,96 @@
+<import src="../../Component/Component/Component.wxml"/>
+<template is="footer" data="{{ footer }}"></template>
+
+
+
+<view class='backBround'>
+  <image src="../../images/background/weixin.jpg"></image>
+</view>
+<view class='log'>
+  <image src='../../images/homepage/shou.png'></image>
+  <view class='nav_text'>
+    <text style='font-weight: 600'>微信小程序</text>
+    <text style='font-weight: 600'>开发一站式服务</text>
+    <view class='nav_text_2'>
+      <text>专业的网设计及开发服务，包括企业网站、互联网产品网站、电商网站、社交及应用类网站等。</text>
+    </view>
+  </view>
+</view>
+
+<view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/W.png'></image>
+    <view class='name_name'>
+      <view>微信小程序</view>
+      <text>eChat small program</text>
+    </view>
+  </view>
+</view> 
+
+<view class='centnet1'>
+  <view class='textCentent'>
+    <text>　　微信通过小程序 / 公众号、服务号、订阅号、企业号实现了将人与商品 / 服务、咨询 /信息及企业的连接，对微信“连接一切”的使命起着关键的支撑作用。 </text>
+    <image src="../../images/homepage/renqun.png"  style="width:350rpx;"></image>
+  </view>
+</view>
+
+<view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/W.png'></image>
+    <view class='name_name'>
+      <view>微信公众号的优势</view>
+     <text>eChat public advantage</text>
+    </view>
+  </view>
+</view> 
+
+
+<view class='list'>
+  <view class='list_title'>庞大的用户群体</view>
+  <text>微信的月度覆盖人数已打7亿，公众号用户占数据到整体微信用户的79.3%</text>
+</view>
+
+<view class='list list2'>
+  <view class='list_title'>用户粘性越来越强</view>
+  <text>用户在微信及其公众号上花费的时间越来越长。</text>
+</view>
+
+<view class='list'>
+  <view class='list_title'>广告效果更好</view>
+  <text>受制干屏幕的尺寸，单屏上显示广告，用户注意力更集中。</text>
+</view>
+
+<view class='list list2'>
+  <view class='list_title'>灵活多样的互动方式</view>
+  <text>订阅内容 + 分享 + 评论 + 朋友圈</text>
+</view>
+
+<view class='list'>
+  <view class='list_title'>完美的交易闭环</view>
+  <text>微信支付直接连通了消费者和卖家</text>
+</view>
+
+<view class='list list2'>
+  <view class='list_title'>用户精准定位</view>
+  <text>移动设备能更好的根据机型定位用户基于LBS，广告主可以展开更主动的服务</text>
+</view>
+<view class='advantage'>
+  <view class='titleAdv'>微信小程序的优势</view>
+  <image src='../../images/homepage/youshi.jpg'></image>
+</view>
+
+<!-- <view class='logName '>
+  <view class='nameComponent'>
+    <image src='../../images/icon/C.png'></image>
+    <view class='name_name'>
+      <view>案列展示</view>
+     <text>ase presentation</text>
+    </view>
+  </view>
+</view>  -->
+
+<template is="Alist"  data="{{ imgList }}"></template>
+<!-- <navigator class='buttom' url="../caseShow/caseShow" hover-class="none">
+    <image src='../../images/icon/morea.png'></image>
+    <text>MORE</text>
+</navigator> -->
